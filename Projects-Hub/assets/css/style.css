@@ -714,9 +714,11 @@ color: azure;
 
 .new-item{
     background-color: lightgray;
-    padding: 5px 18px;
+    padding: 5px 13px;
   
 
+    width: 103%;
+    margin-left: -16px;
 }
 
 .new-item ul{
@@ -743,24 +745,26 @@ color: azure;
 .sidebar {
     width: 250px;
     height: 100vh;
-    background: white;
-    padding: 1.5rem 1rem; /* Increased top/bottom padding */
+    padding: 1.5rem 1rem;
     border-right: 1px solid #dee2e6;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Added box-shadow */
-}
+    margin-left: 5pc;
+    margin-top: 10px;
+    /* font-size: 20px; */
+  }
+
 
 .sidebar .accordion-item {
     border-bottom: 1px solid #eee; /* Add a subtle border between accordion items */
 }
 
 .sidebar .accordion-button {
-    font-weight: bold;
-    color: #333; /* Darker text color */
-    transition: background-color 0.2s ease; /* Smooth transition for hover */
+    font-family: initial;
+     /* Darker text color */
+     /* Smooth transition for hover */
 }
 
 .sidebar .accordion-button:not(.collapsed) {
-    color: #007bff; /* Highlight color for active accordion header */
+    color: ; /* Highlight color for active accordion header */
     background-color: #e9ecef; /* Light background for active header */
 }
 
@@ -804,3 +808,114 @@ color: azure;
 .sidebar .accordion-body li {
     margin-bottom: 0.5rem;
 }
+
+
+.btns{
+
+    font-size: 20px;
+    
+
+}
+
+.main-contents{
+
+    display: flex;
+    background-color: white;
+    padding: 11px 1px 7px 3px;
+    margin-top: -18px;
+    margin-left: -1pc;
+    gap: 67px;
+    border-radius: 4px;
+
+    min-width: 104%;
+}
+
+.main-contents h4{
+    font-size: 25px;
+    padding: 0px 3px 6px 15px;
+}
+
+.main-contents span{
+    color: black;
+    padding: 5px 5px;
+}
+
+.main-contents select{
+
+    padding: 5px 5px 5px 5px;
+ 
+ 
+}
+
+.checked{
+    color:orange;
+}
+
+/* cards setions start next part  */
+
+
+.cardds{
+
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 17pc;
+    margin: auto 18pc;
+    margin-top: -32pc;
+    margin-bottom: 2rem;
+    position: relative;
+    background: #007bff;
+    
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start; 
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0 auto 2rem auto; 
+    position: relative;
+    box-sizing: border-box;
+  }
+  .card {
+    width: 300px; 
+  }
+    
+  
+
+  .card-img-top{
+margin-top: 20px;
+  }
+
+  .checked {
+    color: orange;
+  }
+  
+  /* Optional: card spacing and layout fix */
+  .card {
+    height: 100%;
+  }
+  
+  .card-body {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+
+  .content-img {
+    padding: 4px 8px 8px 258px;
+    margin-top: -31pc;
+    margin-bottom: 10pc;
+    
+  }
+ 
+    
+  
+   
+  
